@@ -2,12 +2,12 @@ import { Experience, Project, SkillCategory, SpokenLanguage } from './types';
 
 export const PERSONAL_INFO = {
   name: "Ayoub Elouazzani",
-  title: "Master's Student in Embedded Artificial Intelligence",
+  title: "Embedded Artificial Intelligence Engineer",
   tagline: "Bridging the gap between Embedded Systems and Artificial Intelligence.",
   location: "Agadir, Morocco",
   email: "elouazzaniayoub@outlook.com",
   phone: "+212 6 35 79 44 31",
-  bio: "Passionate Data Science student currently pursuing a Master's in Embedded Artificial Intelligence. I have robust experience in machine learning, embedded systems, and full-stack development. Committed to creating innovative technological solutions that solve real-world problems."
+  bio: "Passionate Data Science and Embedded Systems Engineer with a Master's degree in Embedded Artificial Intelligence. I have robust experience in machine learning, edge computing, and full-stack development. Committed to creating innovative technological solutions that solve real-world problems."
 };
 
 export const TECHNICAL_SKILLS: SkillCategory[] = [
@@ -41,8 +41,8 @@ export const EXPERIENCE: Experience[] = [
     role: "Master in Embedded Artificial Intelligence",
     company: "University of Sciences",
     location: "Ait Melloul, Morocco",
-    period: "2023 – 2025",
-    description: "Specializing in AI algorithms for embedded hardware and edge computing.",
+    period: "2023 – 2025 (Graduated)",
+    description: "Specialized in AI algorithms for embedded hardware, edge computing, and real-time systems.",
     type: "education"
   },
   {

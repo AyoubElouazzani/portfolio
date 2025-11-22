@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import { TECHNICAL_SKILLS, SPOKEN_LANGUAGES } from '../constants';
 import { Code, Database, Brain, Layers, Globe, Cpu } from 'lucide-react';
 import { getIconUrl } from '../utils';
@@ -13,7 +13,7 @@ const getCategoryIcon = (category: string) => {
   return <Cpu className="w-6 h-6 text-slate-400" />;
 };
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -23,7 +23,7 @@ const containerVariants = {
   }
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, scale: 0.5, rotate: -10 },
   visible: {
     opacity: 1,
